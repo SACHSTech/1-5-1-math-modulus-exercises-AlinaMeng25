@@ -1,8 +1,8 @@
 class Cos3rd extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Finding the third side of a triangle using two sides and their contained angle
+  * @author: Alina
   */
   
   public void run() {

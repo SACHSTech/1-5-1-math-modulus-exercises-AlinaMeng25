@@ -1,8 +1,8 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Conversion of degrees to radians
+  * @author: Alina Meng
   */
   
   public void run() {

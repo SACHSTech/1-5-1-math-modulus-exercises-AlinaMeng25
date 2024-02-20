@@ -1,8 +1,8 @@
 class KmtoMiles extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Converting kilometers to miles
+  * @author: Alina Meng
   */
   
   public void run() {

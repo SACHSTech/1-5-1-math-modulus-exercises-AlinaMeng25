@@ -8,19 +8,19 @@ class Hours extends ConsoleProgram {
   public void run() {
     
     // Variables
-    int dblHours;
-    int dblDays;
-    int dblRemainHours;
+    int intHours;
+    int intDays;
+    int intRemainHours;
 
     // User input
-    dblHours = readInt("How many hours? ");
+    intHours = readInt("How many hours? ");
     
     // Caluclations
-    dblDays = (int)((double)dblHours/24);
-    dblRemainHours = dblHours%24;
+    intDays = (int)((double)intHours/24);
+    intRemainHours = intHours%24;
 
     // Output
-    System.out.println(dblHours + " hours = " + dblDays + " days and " + dblRemainHours + " hours");
+    System.out.println(intHours + " hours = " + intDays + " days and " + intRemainHours + " hours");
     
   }
 }

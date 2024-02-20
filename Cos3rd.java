@@ -20,6 +20,7 @@ class Cos3rd extends ConsoleProgram {
     dblAngleC = readDouble("What is the contained angle in degrees? ");
 
     // calcutations
+    dblAngleC = Math.toRadians(dblAngleC);
     dblSideC = Math.sqrt(Math.pow(dblSideA, 2) + Math.pow(dblSideB, 2) - 2*dblSideA*dblSideB * Math.cos(dblAngleC));
 
     // output

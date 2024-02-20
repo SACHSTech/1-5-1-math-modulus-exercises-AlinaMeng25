@@ -1,8 +1,8 @@
 class Hours extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * Converting hours into days and hours
+  * @author: Alina Meng
   */
   
   public void run() {
